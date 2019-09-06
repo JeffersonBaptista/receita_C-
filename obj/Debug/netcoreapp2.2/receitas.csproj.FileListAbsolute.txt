@@ -1,0 +1,14 @@
+/home/zupper/ABC/Zup_c#/receitas/bin/Debug/netcoreapp2.2/receitas.deps.json
+/home/zupper/ABC/Zup_c#/receitas/bin/Debug/netcoreapp2.2/receitas.runtimeconfig.json
+/home/zupper/ABC/Zup_c#/receitas/bin/Debug/netcoreapp2.2/receitas.runtimeconfig.dev.json
+/home/zupper/ABC/Zup_c#/receitas/bin/Debug/netcoreapp2.2/receitas.dll
+/home/zupper/ABC/Zup_c#/receitas/bin/Debug/netcoreapp2.2/receitas.pdb
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.csprojAssemblyReference.cache
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.csproj.CoreCompileInputs.cache
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.RazorAssemblyInfo.cache
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.RazorAssemblyInfo.cs
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.AssemblyInfoInputs.cache
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.AssemblyInfo.cs
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.RazorTargetAssemblyInfo.cache
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.dll
+/home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.pdb
