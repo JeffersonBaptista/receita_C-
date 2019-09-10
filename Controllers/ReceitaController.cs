@@ -20,10 +20,11 @@ namespace receitas.Controllers
             _service = service;
 
         }
+        
         [HttpGet]
-        public ActionResult<IEnumerable<Receita>> FindAll()
+        public ActionResult<IEnumerable<Receita>> FindAllTrue()
         {
-            return Ok(_service.FindAll());
+            return Ok(_service.FindAllTrue());
 
         }
 
@@ -37,12 +38,15 @@ namespace receitas.Controllers
         [HttpDelete("{id}")]
         public ActionResult DeleteById(int id)
         {
-            try
+
+            var resposta = _service.DeleteById(id);
+
+            if( resposta != null)
             {
-                return Ok(_service.DeleteById(id));
-            }catch (Exception)
+                return Ok(resposta);
+            }else
             {
-                return NotFound();
+                return NotFound(resposta);
             }
 
         }
@@ -55,13 +59,14 @@ namespace receitas.Controllers
         [HttpPut]
         public ActionResult<Receita> UpdateStatus(Receita receita)
         {
-            var resultado = _service.UpdateStatus(receita);
+            var resultado = _service.findById(receita.Id);
             if(resultado == null)
             {
                 return NotFound(resultado);
 
             }else{
-                return Ok(resultado);
+                _service.UpdateStatus(receita);
+                return Ok(_service.findById(receita.Id));
             }
             
         }

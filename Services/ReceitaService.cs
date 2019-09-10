@@ -13,9 +13,9 @@ namespace receitas.Services
             _repository = repository;
         }      
         
-        public IEnumerable<Receita> FindAll()
+        public IEnumerable<Receita> FindAllTrue()
         {
-            return _repository.FindAll();
+            return _repository.FindAllTrue();
         }
 
         public Receita Add(Receita receita)

@@ -5,7 +5,7 @@ namespace receitas.Services
 {
     public interface IReceitaService
     {
-        IEnumerable<Receita> FindAll();
+        IEnumerable<Receita> FindAllTrue();
         Receita Add(Receita receita);
         Receita DeleteById(int id);
         Receita findById(int ParametroId);
