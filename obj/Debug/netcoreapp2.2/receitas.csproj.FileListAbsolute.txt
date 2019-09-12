@@ -12,3 +12,17 @@
 /home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.RazorTargetAssemblyInfo.cache
 /home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.dll
 /home/zupper/ABC/Zup_c#/receitas/obj/Debug/netcoreapp2.2/receitas.pdb
+C:\Users\zupper\Desktop\C#\receita_C-\bin\Debug\netcoreapp2.2\receitas.deps.json
+C:\Users\zupper\Desktop\C#\receita_C-\bin\Debug\netcoreapp2.2\receitas.runtimeconfig.json
+C:\Users\zupper\Desktop\C#\receita_C-\bin\Debug\netcoreapp2.2\receitas.runtimeconfig.dev.json
+C:\Users\zupper\Desktop\C#\receita_C-\bin\Debug\netcoreapp2.2\receitas.dll
+C:\Users\zupper\Desktop\C#\receita_C-\bin\Debug\netcoreapp2.2\receitas.pdb
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.csprojAssemblyReference.cache
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.csproj.CoreCompileInputs.cache
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.RazorAssemblyInfo.cache
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.RazorAssemblyInfo.cs
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.AssemblyInfoInputs.cache
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.AssemblyInfo.cs
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.RazorTargetAssemblyInfo.cache
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.dll
+C:\Users\zupper\Desktop\C#\receita_C-\obj\Debug\netcoreapp2.2\receitas.pdb

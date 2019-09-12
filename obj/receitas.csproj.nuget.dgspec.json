@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/zupper/ABC/Zup_c#/receitas/receitas.csproj": {}
+    "C:\\Users\\zupper\\Desktop\\C#\\receita_C-\\receitas.csproj": {}
   },
   "projects": {
-    "/home/zupper/ABC/Zup_c#/receitas/receitas.csproj": {
+    "C:\\Users\\zupper\\Desktop\\C#\\receita_C-\\receitas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zupper/ABC/Zup_c#/receitas/receitas.csproj",
+        "projectUniqueName": "C:\\Users\\zupper\\Desktop\\C#\\receita_C-\\receitas.csproj",
         "projectName": "receitas",
-        "projectPath": "/home/zupper/ABC/Zup_c#/receitas/receitas.csproj",
-        "packagesPath": "/home/zupper/.nuget/packages/",
-        "outputPath": "/home/zupper/ABC/Zup_c#/receitas/obj/",
+        "projectPath": "C:\\Users\\zupper\\Desktop\\C#\\receita_C-\\receitas.csproj",
+        "packagesPath": "C:\\Users\\zupper\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zupper\\Desktop\\C#\\receita_C-\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/zupper/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\zupper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

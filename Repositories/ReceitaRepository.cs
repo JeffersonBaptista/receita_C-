@@ -13,7 +13,7 @@ namespace receitas.Repositories
     
     public class ReceitaRepository : IReceitaRepository
     {
-        public string ConnectionString ="Server=localhost;Port=3306;Database=receitas;Uid=jefferson;Pwd=jefferson23";
+        public string ConnectionString ="Server=localhost;Port=3306;Database=receitas;Uid=root;Pwd=jefferson23";
         public IEnumerable<Receita> FindAllTrue()
         {
             using (IDbConnection dbConnection = new MySqlConnection(ConnectionString))
@@ -25,6 +25,19 @@ namespace receitas.Repositories
             }
             
         }
+
+        public IEnumerable<Receita> FindAllFalse()
+        {
+            using (IDbConnection dbConnection = new MySqlConnection(ConnectionString))
+            {
+                string sQuery = " SELECT id, nome, ingredientes, modo_de_preparar as ModoPreparar, status FROM receita WHERE status = false";
+
+                dbConnection.Open();
+                return dbConnection.Query<Receita>(sQuery);
+            }
+
+        }
+
         public Receita DeleteById(int ParametroId)
         {
             using (IDbConnection dbConnection = new MySqlConnection(ConnectionString))

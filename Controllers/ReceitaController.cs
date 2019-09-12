@@ -27,6 +27,11 @@ namespace receitas.Controllers
             return Ok(_service.FindAllTrue());
 
         }
+        [HttpGet("false")]
+        public ActionResult<IEnumerable<Receita>> FindAllFalse()
+        {
+            return Ok(_service.FindAllFalse());
+        }
 
         [HttpPost]
         public ActionResult<Receita> Add([FromBody] Receita receita)

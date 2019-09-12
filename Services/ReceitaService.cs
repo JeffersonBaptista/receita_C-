@@ -18,6 +18,11 @@ namespace receitas.Services
             return _repository.FindAllTrue();
         }
 
+        public IEnumerable<Receita> FindAllFalse()
+        {
+            return _repository.FindAllFalse();
+        }
+
         public Receita Add(Receita receita)
         {
             return _repository.Add(receita);
