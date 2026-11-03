@@ -10,7 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="mysql" Version="5.5.14.1" />
-    <PackageReference Include="MySqlconnector" Version="0.56.0" />
+    <PackageReference Include="MySqlconnector" Version="2.6.1" />
   </ItemGroup>
 
 </Project>
